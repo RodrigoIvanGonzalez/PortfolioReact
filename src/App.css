@@ -148,6 +148,7 @@ img{
 .button--flex{
   display: inline-flex;
   align-items: center;
+  background-color: #222222;
 }
 
 @media screen and (max-width: 992px) {
