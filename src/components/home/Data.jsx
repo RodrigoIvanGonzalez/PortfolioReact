@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Data = () => {
 return (
     <div className="home__data">
@@ -11,7 +9,7 @@ return (
                   viewBox="0 0 48 48"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="home__hand"
+                  className="home__hand"
                 >
                   <path
                     d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -56,12 +54,15 @@ return (
                 </svg>
     </h1>
         <h3 className="home__subtitle">FullStack Developer</h3>
-        <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fugiat doloremque ipsa repellendus eos nihil aspernatur. Minima id beatae porro libero, atque, unde voluptatibus consequuntur quasi iste maxime repudiandae excepturi.</p>
+        <p className="home__description">¡Bienvenido a mi Portafolio!</p><br />
+    <p className="home__description">Aquí encontrarás una muestra de mi pasión por el desarrollo web y la creatividad.me dedico a transformar ideas en experiencias digitales únicas. 🚀
+      Explora los proyectos que reflejan mi estilo, dedicación y habilidades técnicas. Mi objetivo es no solo construir código, sino crear soluciones que inspiran y conectan.
+¡Gracias por visitarme! Estoy emocionado de compartir mi trabajo contigo. </p>
 
         <a href="#contact" className="button button--flex">
-            Say Hello! 
+            Di Hola!
             <svg
-                  class="button__icon"
+                  className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"

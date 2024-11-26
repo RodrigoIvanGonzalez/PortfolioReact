@@ -1,14 +1,13 @@
-import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/profile.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Rodrigo-Ivan-Gonzalez-cv.pdf";
 import Info from './Info';
 
 function About() {
     return (
         <section className="about section" id="about">
-            <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My introduction</span>
+            <h2 className="section__title">Sobre Mi</h2>
+            <span className="section__subtitle"></span>
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt="" className="about__img" />
@@ -16,11 +15,12 @@ function About() {
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam atque nesciunt mollitia quas aut alias a quaerat at iure enim necessitatibus, esse accusamus eum, sequi quo unde quis velit porro?</p>
+                    <p className="about__description">Soy un desarrollador Junior Full Stack apasionado por la programación, con un fuerte interés en el desarrollo front-end. Me encanta el aspecto creativo que implica dar vida a las ideas a través del diseño y la interacción en la web. Disfruto encontrar soluciones innovadoras y crear experiencias visualmente atractivas y funcionales.
+                    Siempre estoy buscando aprender nuevas tecnologías y perfeccionar mis habilidades, combinando técnica y creatividad para construir proyectos que destaquen. </p>
 
                     <a download="" href={CV} className="button button--flex">Download CV 
                         <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

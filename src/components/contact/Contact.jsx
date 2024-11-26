@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css"
 
@@ -15,12 +15,11 @@ function Contact() {
     };
     return (
         <section className="contact section" id="contact">
-            <h2 className="section__title">Get in touch</h2>
-            <span className="section__subtitle">Contact Me</span>
+            <h2 className="section__title">Ponte en contacto</h2>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Talk to me</h3>
+                    <h3 className="contact__title">Hablemos</h3>
 
                     <div className="contact__info">
                         <div className="contact__card">
@@ -44,28 +43,28 @@ function Contact() {
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your proyect</h3>
+                    <h3 className="contact__title">Déjame un mensaje</h3>
 
                     <form ref={form} onSubmit={sendEmail} className="contact__form">
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Name</label>
-                            <input type="text" name="name" className='contact__form-input' placeholder='Insert your name'/>
+                            <input type="text" name="name" className='contact__form-input' placeholder='Escriba su nombre'/>
                         </div>
 
                         <div className="contact__form-div">
                             <label className="contact__form-tag">E-mail</label>
-                            <input type="email" name="email" className='contact__form-input' placeholder='Insert your E-mail'/>
+                            <input type="email" name="email" className='contact__form-input' placeholder='Escriba su E-mail'/>
                         </div>
 
                         <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">Proyect</label>
-                            <textarea name="proyect" cols="30" rows="10" className='contact__form-input' placeholder='Write your idea'></textarea>
+                            <textarea name="proyect" cols="30" rows="10" className='contact__form-input' placeholder='Contame tu idea'></textarea>
                         </div>
 
                         <button className="button button--flex">
                             Send Message
                             <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

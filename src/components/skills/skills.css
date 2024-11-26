@@ -52,16 +52,16 @@
 
 @media screen and (max-width: 992px) {
 .skills__container{
-    grid-template-columns: max-content;
     row-gap: 2rem;
 }
 }
 
-@media screen and (max-width: 576px) {
-.skills__container{
-    grid-template-columns: 1fr;
+@media screen and (max-width: 768px) {
+    .skills__container{
+        grid-template-columns: 1fr;
+    }
 }
-
+@media screen and (max-width: 576px) {
 .skills__content{
     padding: 1.5rem;
 }
